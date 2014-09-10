@@ -5,7 +5,7 @@ In the absence of a Netflix "Play Random Episode" option, this is some Python co
 
 The code is in two parts:
 
-MalcolmInTheMiddle.py
+MalcolmInTheMiddleEpisodes.py
 
 This code serves to set up the SQLite database to be queried from in the next script.  The table is constructed from the information taken from this site: http://en.wikipedia.org/wiki/List_of_Malcolm_in_the_Middle_episodes
 urllib2 and BeautifulSoup are used to read and parse the HTML and the sqlite3 package is used to interface with the SQLite database on your machine.
