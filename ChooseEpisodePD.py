@@ -4,7 +4,7 @@ import pandas
 #Initializes function with two arguments
 def Chooser(Update = 0, MinView = 0):
     #Opens .csv file containing episodes
-    EpTable = pandas.DataFrame.from_csv(path='C:\Users\Nicholas\My Documents\MITMEpisodes.csv')
+    EpTable = pandas.DataFrame.from_csv(path='C:\Users\YourNameHere\My Documents\MITMEpisodes.csv')
   
     #If MinView is set to 1, only an episode number with the minimum number of view may be selected
     if MinView:
@@ -27,7 +27,7 @@ def Chooser(Update = 0, MinView = 0):
     print("Views: "+str(Output[3]))
 
     #Saves changes to .csv file
-    EpTable.to_csv('C:\Users\Nicholas\My Documents\MITMEpisodes.csv',index=True,mode='w')
+    EpTable.to_csv('C:\Users\YourNameHere\My Documents\MITMEpisodes.csv',index=True,mode='w')
 
 #Calls function
 Chooser(Update = 1, MinView = 1)
