@@ -72,4 +72,4 @@ for Table in Soup.body.find_all("table"):
                         print(TD.text)
 
 #Writes EpTable to .csv file
-EpTable.to_csv('C:\Users\Nicholas\Documents\MITMEpisodes.csv',index=False)
+EpTable.to_csv('C:\Users\YourNameHere\Documents\MITMEpisodes.csv',index=False)
