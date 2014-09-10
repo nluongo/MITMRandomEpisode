@@ -1,0 +1,11 @@
+Created database MalcolmInTheMiddle.db
+
+Schema for table MITMEpisodes
+
+CREATE TABLE Episodes(
+Number  INT  PRIMARY KEY  NOT NULL,
+Season   INT  NOT NULL,
+Episode INT NOT NULL,
+Name    TEXT  NOT NULL,
+Views  INT  NOT NULL
+);
